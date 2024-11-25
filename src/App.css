@@ -1,0 +1,26 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.settings{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+.setting{
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+}
+.mainScreen{
+  font-size: 2rem;
+}
+#start_stop, #reset{
+  margin: 0 20px;
+}
